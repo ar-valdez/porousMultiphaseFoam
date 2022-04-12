@@ -12,40 +12,22 @@
 
 # Branches
 
-## Development branches: dev works with OpenFOAM-v2106
+## The current branches and source codes are being used
 
-- branch **dev** works with OpenFOAM-v2106 (openfoam.com)
-- branch **dev_org** works with OpenFOAM-v9 (openfoam.org)
+- OpenFOAM v9 from openfoam.org
+- branch **openfoam-v9**
 
-## The current branches (last version of the toolbox)
+# Stuff to do
 
-- branch **openfoam-v2106** > PMFv2107
-- branch **openfoam-v2006** > PMFv2107
-- branch **openfoam-v1906** > PMFv2107
-- branch **openfoam-v9**    > PMFv2107
-- branch **openfoam-v8**    > PMFv2107
-- branch **openfoam-v7**    > PMFv2107
+- The library already has Corey's model. However, I will implement it as well due
+to the fact that my Corey's model has different exponents.
+- Implement Chierici's model.
+- Implement LET model.
 
-## Old branches not updated
+# Working tests
 
-- branch **openfoam-v1812**  > PMFv1906
-- branch **openfoam-v6**     > PMFv1906
-- branch **openfoam-v5**     > PMFv1809
-- branch **foam-extend-4.0** > PMFv1809
-- branch **openfoam-v1806**  > PMFv1809
-- branch **openfoam-v1712**  > PMFv1805
-
-## Older version (no branches)
-
-- OpenFOAM 4.0	PMFv1.4.1
-- OpenFOAM 3.0	PMFv1.2
-
-## version not supported:
-
-- OpenFOAM 2.4 and older
-- foam-extend 3.2 and older
-- OpenFOAM v1706 and older
-- OpenFOAM v1812/v1912/v2012
+- Make a rectangular domain, taking core params. and run the injection to remove
+oil from the reservoir.
 
 # General Informations
 
