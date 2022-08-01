@@ -3,6 +3,9 @@ relativePermeabilityModels/relativePermeabilityModel/relativePermeabilityModelNe
 relativePermeabilityModels/BrooksAndCorey/krBrooksAndCorey.C
 relativePermeabilityModels/VanGenuchten/krVanGenuchten.C
 relativePermeabilityModels/Ippisch/krIppisch.C
+relativePermeabilityModels/Corey1954/krCorey1954.C
+relativePermeabilityModels/Chierici1984/krChierici1984.C
+relativePermeabilityModels/LET2005/krLET2005.C
 
 capillarityModels/capillarityModel/capillarityModel.C
 capillarityModels/capillarityModel/capillarityModelNew.C

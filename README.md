@@ -17,28 +17,20 @@
 - OpenFOAM v9 from openfoam.org
 - branch **openfoam-v9**
 
+# Stuff done
+
+- Corey 1954 model implemented
+- Chierici 1984 model implemented
+- LET 2005 model implemented
+
 # Stuff to do
 
-- The library already has Corey's model. However, I will implement it as well due
-to the fact that my Corey's model has different exponents.
-- Implement Chierici's model.
-- Implement LET model.
+- Make a simple test following Gabriel's advice
 
 # Working tests
 
 - Make a rectangular domain, taking core params. and run the injection to remove
 oil from the reservoir.
-
-# General Informations
-
-- This toolbox needs only a standard OpenFOAM installation
-  (see www.openfoam.org or www.openfoam.com)
-
-- Please cite the related paper in the "doc" folder if you are using this
-  toolbox.
-
-- Read the COPYING_OPENFOAM file for information about OpenFOAM and this
-  toolbox Copyrights.
 
 # Installation instructions :
 
